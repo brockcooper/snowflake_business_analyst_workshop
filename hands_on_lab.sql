@@ -90,6 +90,7 @@ LIMIT 10;
 -- Your answer:
 
 
+
 -- Practice 2: Show rows where DATE = '2017-12-31' OR DATE = '2012-12-31'
 -- Your answer:
 
@@ -139,8 +140,10 @@ LIMIT 10;
 -- Your answer:
 
 
+
 -- Practice 2: Count rows where VALUE BETWEEN 0 AND 0 (i.e., equals zero)
 -- Your answer:
+
 
 
 /* ================================================
@@ -163,9 +166,11 @@ LIMIT 10;
 -- Your answer:
 
 
+
 -- Practice 2: Find VARIABLEs that start with 'PAY'
 -- Hint: Consider UPPER(VARIABLE) and LIKE 'PAY%'
 -- Your answer:
+
 
 
 /* ================================================
@@ -286,6 +291,7 @@ ORDER BY VALUE DESC
 -- Practice 2: Label VARIABLE_NAME ILIKE 'inventor%' as 'inventory' else 'other' 
 -- then sum up the USD VALUE for that new column by the DATE in DESC order
 -- Your answer:
+
 
 
 /* ================================================
