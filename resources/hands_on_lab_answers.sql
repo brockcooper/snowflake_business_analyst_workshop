@@ -406,7 +406,7 @@ CREATE SCHEMA IF NOT EXISTS analytics.census;
 -- Example 1: Create a view for Colorado census rows
 CREATE OR REPLACE VIEW analytics.census.colorado_census_view AS
 SELECT gi.GEO_NAME,
-       c.DATE,
+       c.DATE::DATE AS DATE,
        c.VARIABLE_NAME,
        c.VALUE,
        c.UNIT
